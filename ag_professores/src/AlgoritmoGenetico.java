@@ -2,8 +2,8 @@ import java.util.*;
 
 public class AlgoritmoGenetico {
     private List<Individuo> populacao;
-    private static final int POPULACAO_INICIAL = 20;
-    private static final int MAX_GERACOES = 10000;
+    private static final int POPULACAO_INICIAL = 200;
+    private static final int MAX_GERACOES = 100000;
     private static final double TAXA_MUTACAO = 0.1;
 
     public AlgoritmoGenetico() {
